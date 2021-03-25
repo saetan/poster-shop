@@ -44,7 +44,7 @@ new Vue({
         onSubmit: function(){
             var path = "/search?q=".concat(this.search);
             this.$http.get(path).then(function(response) {
-                console.log(response);
+                console.log("uwu"); //new changes
             }); //$ sign indiicatiion is a plugin method
         }
 
