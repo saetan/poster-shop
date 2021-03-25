@@ -366,3 +366,19 @@ body {
         display: none;
     }
 }
+
+.fade-enter {
+    opacity: 0;
+}
+
+.fade-enter-active {
+    transition: opacity 0.5s;
+}
+
+/*
+As default dom opacity is 1 we don't need this
+.fade-enter-to{
+    opacity: 1;
+}
+
+*/
